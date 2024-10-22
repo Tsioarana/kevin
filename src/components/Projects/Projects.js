@@ -141,7 +141,7 @@ function Projects() {
                      Choisissez un langage de programmation, appuyez sur "Lancer le script" pour voir les résultats et copiez les scripts pour vos propres projets !
                   </>
                 }
-                ghLink="https://github.com/Tsioarana/hackaton-front"
+                demoLink="https://apipost-4jyv.onrender.com/"
               />
             </Tilt>
           </Col>
@@ -157,7 +157,7 @@ function Projects() {
                      Découvrez une large sélection de produits pour répondre à tous vos besoins technologiques !
                   </>
                 }
-                ghLink="https://github.com/Tsioarana/hackaton-front"
+                demoLink="https://technow-3052.onrender.com/"
               />
             </Tilt>
           </Col>
