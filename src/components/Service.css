@@ -1,0 +1,109 @@
+/* Styles de base pour la page de service */
+.service-container {
+    padding: 80px 0;
+    color: #d3c8c8;
+  }
+
+  .service-title {
+    font-size: 2.5rem;
+    color: #fff; /* Texte en blanc */
+    text-align: center; /* Centre le titre */
+  }
+
+  .service-description {
+    font-size: 1.2rem;
+    color: #fff; /* Texte en blanc */
+    text-align: center; /* Centre la description */
+  }
+  .card-title {
+    color: #3257d3;
+    font-size: 2rem;
+  }
+
+
+  /* Styles pour les cartes de service */
+  /* Styles pour les cartes de service */
+.service-card {
+    border: 5px solid transparent; /* Bordure transparente par défaut */
+    border-radius: 2px; /* Arrondi des coins de la bordure */
+    background: linear-gradient(145deg, #0d0235d3, #0d02357a); /* Couleur de fond sombre */
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.2), -20px -20px 60px #45259b42;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    overflow: hidden;
+    margin-bottom: 40px;
+    width: 100%; /* Définit la largeur */
+    height: 300px; /* Définit la hauteur pour avoir des cartes carrées */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centre le texte dans la carte */
+    position: relative; /* Nécessaire pour la bordure animée */
+    border-image: linear-gradient(45deg, rgb(1, 70, 116), rgb(5, 71, 5), rgb(204, 124, 5), rgb(153, 5, 104)) 1;
+    animation: borderChange 5s infinite; /* Animation de la bordure */
+  }
+
+  /* Animation pour la bordure dégradée */
+  @keyframes borderChange {
+    0% {
+      border-image-source: linear-gradient(45deg, rgb(1, 70, 116), rgb(5, 71, 5), rgb(204, 124, 5), rgb(153, 5, 104));
+    }
+    25% {
+      border-image-source: linear-gradient(45deg, rgb(1, 70, 116), rgb(5, 71, 5), rgb(204, 124, 5), rgb(153, 5, 104));
+    }
+    50% {
+      border-image-source: linear-gradient(45deg, rgb(1, 70, 116), rgb(5, 71, 5), rgb(204, 124, 5), rgb(153, 5, 104));
+    }
+    75% {
+      border-image-source: linear-gradient(45deg, rgb(1, 70, 116), rgb(5, 71, 5), rgb(204, 124, 5), rgb(153, 5, 104));
+    }
+    100% {
+      border-image-source: linear-gradient(45deg, rgb(1, 70, 116), rgb(5, 71, 5), rgb(204, 124, 5), rgb(153, 5, 104));
+    }
+  }
+
+  .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Styles pour les icônes */
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .service-icon {
+    color: #fff; /* Couleur des icônes en blanc */
+    font-size: 3rem; /* Taille des icônes */
+    transition: color 0.4s ease;
+  }
+
+  .service-card:hover .service-icon {
+    color: #e0b808d3; /* Changement de couleur au survol */
+  }
+
+  /* Animation lumineuse */
+  .service-card:hover {
+    background: linear-gradient(145deg, #0d033059, #0d02357a); /* Conserve le même fond */
+    animation: glowing 1.5s infinite;
+  }
+
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px #e0940828, 0 0 10px #e0940859, 0 0 15px #e0940848, 0 0 20px #e0940863;
+    }
+    50% {
+      box-shadow: 0 0 10px #e0940828, 0 0 10px #e0940859, 0 0 15px #e0940848, 0 0 20px #e0940863;
+    }
+    100% {
+      box-shadow: 0 0 5px #e0940828, 0 0 10px #e0940859, 0 0 15px #e0940848, 0 0 20px #e0940863;
+    }
+  }
