@@ -71,7 +71,7 @@ function Footer() {
           <p style={{color:'#fff', fontSize: '1.2rem'}}><FaPhoneAlt className="icon" /> +261 33 04 160 79</p>
         </Col>
         <Col md="12" className="footer-copywright">
-          <h3 style={{color: '#61dafb'}}>© Angelot, {year} </h3>
+          <h3 style={{color: '#61dafb'}}>© Kevin, {year} </h3>
         </Col>
       </Row>
     </Container>
