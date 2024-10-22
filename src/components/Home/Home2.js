@@ -16,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={6} className="home-about-description">
             <h1>
-              Je suis <span className="purple"> ANGELOT </span> Développeur Freelance
+              Je suis <span className="purple"> Kevin </span> Développeur Freelance
             </h1>
             <p className="home-about-body">
             Je suis développeur web freelance basé à Madagascar et toujours disponible pour vos projets.
